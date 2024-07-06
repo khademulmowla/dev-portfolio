@@ -1,0 +1,149 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared style */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.btn {
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+/* header styles */
+.header {
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin: 30px 70px 0 20px, auto;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content {
+    max-width: 585px;
+}
+
+.banner-greetings {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 0;
+
+}
+
+.banner-title {
+    font-size: 85px;
+    color: #181818;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.banner-profile-picture {
+    height: 670px;
+    width: 580px;
+}
+
+/* main styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about me styles */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.section-title {
+    font-size: 45px;
+    font-weight: bold;
+    color: #181818;
+    margin-top: 0;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title {
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 0;
+}
+
+.item-description {
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 0;
+}
+
+.about-middle {
+
+    background-color: #FFFFFF;
+    padding: 5px;
+    border: 1px solid #1E1E1E;
+    border-radius: 5px;
+}
