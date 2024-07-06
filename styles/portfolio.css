@@ -148,14 +148,6 @@ main section {
     margin-top: 0;
 }
 
-.about-middle {
-
-    background-color: #FFFFFF;
-    padding: 5px;
-    border: 1px solid #1E1E1E;
-    border-radius: 5px;
-}
-
 /* what I do section styles */
 .skill-item {
     height: 280px;
