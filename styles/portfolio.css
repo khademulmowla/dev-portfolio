@@ -235,3 +235,48 @@ footer textarea {
     margin-bottom: 24px;
     border: none;
 }
+
+/* responsive media query  */
+
+@media screen and (max-width:576px) {
+
+    .skill-items,
+    .resume-container,
+    footer,
+    .about-items,
+    nav,
+    nav>ul,
+    .banner {
+        flex-direction: column;
+    }
+
+    nav>ul {
+        gap: 20px;
+    }
+
+
+    footer,
+    .about,
+    .section-des {
+        padding: 20px;
+    }
+
+    .banner {
+        margin: 20px;
+    }
+
+    .banner-profile-picture {
+        width: 100%;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    footer input[type="text"],
+    footer input[type="email"],
+    footer textarea {
+        width: calc(100% - 40px);
+    }
+
+}
